@@ -1,0 +1,38 @@
+{
+  "name": "jasmine-testrail-reporter",
+  "version": "0.0.1",
+  "description": "Reports Jasmine test results to TestRail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnov/jasmine-testrail-reporter.git"
+  },
+  "keywords": [
+    "jasmine",
+    "protractor",
+    "testrail"
+  ],
+  "author": "Alex Novikov <alex@asnovikov.ru> (http://www.asnovikov.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asnov/jasmine-testrail-reporter/issues"
+  },
+  "homepage": "https://github.com/asnov/jasmine-testrail-reporter#readme",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "dependencies": {
+    "node-testrail": "^0.0.12",
+    "node-testrail-sync": "^0.0.3",
+    "protractor-testrail-promise": "^1.0.2",
+    "testrail-promise": "^0.1.19"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.2",
+    "@types/node": "^8.0.53",
+    "typescript": "^2.6.1"
+  }
+}

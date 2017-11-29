@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "declaration": true,
+    "lib": [
+      "es2017"
+    ],
+    "strict": true,
+    "target": "es5",
+    "preserveConstEnums": true,
+    "sourceMap": true
+  }
+}
