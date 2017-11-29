@@ -2,11 +2,15 @@
   
 Reports Jasmine test results to [TestRail](http://www.gurock.com/testrail/)  
   
-#How to use  
+# How to use  
   
-The best way to pass parameters to the reporter is by environment variables:  
+`npm install jasmine-testrail-reporter --save-dev`  
+or  
+`yarn add jasmine-testrail-reporter --dev`  
   
-TESTRAIL_USERNAME - used to form URL, like <username>.testrail.io  
+Then the best way to pass parameters to the reporter is by environment variables:  
+  
+TESTRAIL_USERNAME - used to form URL, like \<username>.testrail.io  
 TESTRAIL_EMAIL  
 TESTRAIL_PASSWORD - API key  
 TESTRAIL_PROJECT_ID - number | 'first' | 'last', default = 'first' (the results will be saved to your first project in the TestRail project list)  
@@ -55,13 +59,14 @@ export const config = {
 - to [Simon Townsend](https://github.com/stowns) for the idea to use protractor's onComplete;  
   
   
-TODO  
-- [   ] demonstrate error (if any) in async constructor more earlier;  
-- [   ] add status matching in parameters;  
-- [   ] store CustomReporterResult.failedExpectations, passedExpectations, pendingReason in the IAddResultsForCases.custom_step_results;  
-- [   ] implement ‘create’ option for RunId;  
-- [   ] implement createTestCases method;  
-- [   ] ...  
+# TODO  
+- [    ] fix TS installation errors  
+- [    ] demonstrate error (if any) in async constructor more earlier;  
+- [    ] add status matching in parameters;  
+- [    ] store CustomReporterResult.failedExpectations, passedExpectations, pendingReason in the IAddResultsForCases.custom_step_results;  
+- [    ] implement ‘create’ option for RunId;  
+- [    ] implement createTestCases method;  
+- [    ] ...  
   
   
   
